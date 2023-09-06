@@ -1,0 +1,17 @@
+#portfolio {
+    display: grid;
+    grid-template-rows: auto 1fr;
+}
+
+#portfolio-header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#portfolio-header .link-button {
+    border-radius: 0%;
+    width: 200px;
+    height: 50px;
+}

@@ -1,0 +1,29 @@
+#nav-top {
+    position: fixed;
+    bottom: 1%;
+    right: 0.8%;
+    width: 65px;
+    height: 65px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+    z-index: 1;
+    transition: opacity 0.3s ease-in-out;
+}
+
+#nav-top:hover {
+    transform: scale(1.1);
+}
+
+#nav-top.hidden {
+    opacity: 0;
+}
+
+@media screen and (max-width: 768px) {
+    #nav-top {
+        display: none;
+    }
+
+}

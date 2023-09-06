@@ -1,0 +1,33 @@
+.link-button {
+    border-radius: 5px;
+    background-color: #000000;
+    color: #ffffff;
+    border: 1px solid #000000;
+    padding: 10px 20px;
+    cursor: pointer;
+    text-decoration: none;
+    width: max-content;
+    height: max-content;
+    font-family: 'Open Sans', sans-serif;
+
+    font-weight: 800;
+    font-size: 20px;
+    transition: all 0.3s ease-in-out;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.link-button:hover {
+    background-color: #ffffff;
+    color: #000000;
+    border: 1px solid #000000;
+}
+
+.link-button:active {
+    background-color: #000000;
+    color: #ffffff;
+    border: 1px solid #000000;
+    transform: scale(0.9);
+}

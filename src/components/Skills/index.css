@@ -1,0 +1,29 @@
+#skills-divider-container {
+    display: grid;
+    grid-template-columns: auto 1fr;
+}
+
+#skills-divider-container .header {
+    align-self: center;
+}
+
+#skills-container {
+    display: grid;
+    grid-template-columns: 1fr auto 1fr;
+    align-content: center;
+}
+
+#skills-divider {
+    width: 2px;
+    height: 90%;
+    background-color: #e0e0e0;
+    align-self: center;
+}
+
+#skills-languages {
+    text-align: left;
+}
+
+#skills-frameworks {
+    text-align: right;
+}

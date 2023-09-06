@@ -1,0 +1,5 @@
+.divider {
+    height: 250px;
+    background: linear-gradient(to right, #0197fc, #30d6ff);
+    color: white;
+}
