@@ -2,10 +2,9 @@ import './index.css';
 import Divider from '../Divider';
 
 function Description() {
-    const left = <div></div>;
-    const right = <div></div>;
+    const content = <div></div>;
     return (
-        <Divider content={left} id="divider-description" />
+        <Divider content={content} id="divider-description" />
     );
 }
 
