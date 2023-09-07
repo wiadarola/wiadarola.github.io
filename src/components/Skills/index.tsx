@@ -1,6 +1,7 @@
 import './index.css';
 import Divider from '../Divider';
-import { useState } from 'react';
+import { useState, Fragment } from 'react';
+
 
 export default function Skills() {
     const [selectedSkillType, setSelectedSkillType] = useState('Languages');
@@ -51,9 +52,9 @@ export default function Skills() {
                         <div key={type} className='skills-type' id={`${type}-skills-container`}>
                             <div className='skills-container'>
                                 {skillsData.filter(skill => type.toLowerCase().includes(skill.type)).map(skill => (
-                                    <>
-                                        <SkillCard key={skill.name} skill={skill} />
-                                    </>
+                                    <Fragment key={skill.link}>
+                                        <SkillCard skill={skill} />
+                                    </Fragment>
                                 ))}
                             </div>
                         </div>
