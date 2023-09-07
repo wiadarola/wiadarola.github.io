@@ -36,18 +36,18 @@
 .skills-container {
     display: grid;
     grid-auto-flow: column;
-    grid-template-rows: 1fr;
+    grid-template-rows: auto;
     padding-bottom: 10px;
     overflow-x: auto;
     overflow-y: hidden;
 }
 
 .skills-container::-webkit-scrollbar-thumb {
-    background-color: #ebebeb;
+    background-color: #cfcfcf;
 }
 
 .skills-container::-webkit-scrollbar-thumb:hover {
-    background: #d6d5d5;
+    background: #b8b8b8;
 }
 
 

@@ -32,12 +32,11 @@ export default function Skills() {
     const skillsData = [
         { name: 'JavaScript', type: 'language', description: 'Scripting language for web interactivity.', link: javascriptSVG },
         { name: 'TypeScript', type: 'language', description: 'Superset of JS with static typing features.', link: typescriptSVG },
+        { name: 'Python', type: 'language', description: 'Versatile language for web, data science, and more.', link: pythonSVG },
         { name: 'HTML', type: 'language', description: 'Markup language for web development.', link: htmlSVG },
         { name: 'CSS', type: 'language', description: 'Styling for web applications.', link: cssSVG },
         { name: 'C', type: 'language', description: 'Low-level programming for system development.', link: cSVG },
         { name: 'C++', type: 'language', description: 'Object-oriented, used in various applications.', link: cppSVG },
-        // { name: 'Assembly', type: 'language', description: 'Lowest level human-readable language.', link: '' },
-        { name: 'Python', type: 'language', description: 'Versatile language for web, data science, and more.', link: pythonSVG },
         { name: 'Java', type: 'language', description: 'Object-oriented, used in various applications.', link: javaSVG },
         { name: 'PHP', type: 'language', description: 'Server-side scripting for web development.', link: phpSVG },
         { name: 'SQL', type: 'language', description: 'Used for database queries.', link: sqlSVG },
