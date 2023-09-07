@@ -1,6 +1,5 @@
 #hero-header {
     padding-top: 12%;
-
 }
 
 #hero-header #name {
@@ -21,54 +20,119 @@
     gap: 20px;
 }
 
-@media (max-width: 768px) {
+#hero-body .link-button {
+    width: 180px;
+    font-size: 28px;
+}
+
+@media (max-width: 1088px) {
+    #hero-body .link-button {
+        width: 140px;
+        font-size: 20px;
+    }
+
+    span.index-module_type__E-SaG {
+        font-size: 41px !important;
+    }
+}
+
+@media (max-width: 906px) {
+    #hero {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #hero-header {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
     #hero-header #name {
-        font-size: 80px;
+        font-size: 85px;
         font-weight: 800;
     }
 
-
     span.index-module_type__E-SaG {
-        font-size: 52.1px !important;
+        font-size: 54.5px !important;
     }
 
     #hero-body {
         grid-template-columns: auto auto;
         grid-template-rows: auto auto;
-        gap: 15px;
+        gap: 20px;
+    }
+
+    #hero-body .link-button {
+        width: 200px;
+        font-size: 28px;
     }
 }
 
-@media (max-width: 611px) {
+@media (max-width: 550px) {
+    #hero-header #name {
+        font-size: 70px;
+        font-weight: 800;
+    }
+
+    span.index-module_type__E-SaG {
+        font-size: 45px !important;
+    }
+
+    #hero-body {
+        grid-template-columns: auto auto;
+        grid-template-rows: auto auto;
+        gap: 20px;
+    }
+
+    #hero-body .link-button {
+        width: 150px;
+        font-size: 20px;
+    }
+}
+
+@media (max-width: 425px) {
     #hero-header #name {
         font-size: 60px;
         font-weight: 800;
     }
 
     span.index-module_type__E-SaG {
-        font-size: 42.1px !important;
+        font-size: 40px !important;
     }
 
     #hero-body {
+        grid-template-rows: auto auto auto auto;
         grid-template-columns: auto;
-        grid-template-rows: auto auto auto;
-        gap: 15px;
+        gap: 20px;
+    }
+
+    #hero-body .link-button {
+        width: 170px;
+        font-size: 25px;
     }
 }
 
-@media (max-width: 425px) {
+@media (max-width: 375px) {
     #hero-header #name {
         font-size: 50px;
         font-weight: 800;
     }
 
     span.index-module_type__E-SaG {
-        font-size: 32.1px !important;
+        font-size: 35px !important;
     }
 
     #hero-body {
+        grid-template-rows: auto auto auto auto;
         grid-template-columns: auto;
-        grid-template-rows: auto auto auto;
-        gap: 15px;
+        gap: 20px;
+    }
+
+    #hero-body .link-button {
+        width: 150px;
+        font-size: 20px;
     }
 }
