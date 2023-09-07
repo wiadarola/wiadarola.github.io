@@ -22,7 +22,7 @@ function Hero() {
             <div id="hero-body">
                 <LinkButton href="https://github.com/wiadarola/" text="Github" newTab={true} />
                 <LinkButton href="https://www.linkedin.com/in/wiadarola/" text="LinkedIn" newTab={true} />
-                <LinkButton href="/src/assets/resume.pdf" text="Resume" newTab={true} />
+                <LinkButton href="/portfolio/assets/resume.pdf" text="Resume" newTab={true} />
                 <LinkButton href="#contact" text="Contact Me" newTab={false} />
             </div >
         </section>

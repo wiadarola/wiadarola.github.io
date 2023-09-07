@@ -1,6 +1,6 @@
 import "./index.css";
 import { useState, useEffect } from 'react';
-import upArrow from '../../assets/up-arrow.svg';
+import upArrow from '/assets/up-arrow.svg';
 
 function NavTop() {
     const [isVisible, setIsVisible] = useState(true);
