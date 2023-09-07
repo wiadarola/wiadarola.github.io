@@ -1,36 +1,59 @@
 import './index.css';
 import Divider from '../Divider';
 import { useState, Fragment } from 'react';
+import javascriptSVG from '/assets/javascript.svg';
+import typescriptSVG from '/assets/typescript.svg';
+import htmlSVG from '/assets/html5.svg';
+import cssSVG from '/assets/css3.svg';
+import cSVG from '/assets/C_Programming_Language.svg';
+import cppSVG from '/assets/c.svg';
+import pythonSVG from '/assets/python.svg';
+import javaSVG from '/assets/java.svg';
+import phpSVG from '/assets/new-php-logo.svg';
+import sqlSVG from '/assets/sql-database-generic.svg';
+import flaskSVG from '/assets/pocoo_flask-icon.svg';
+import reactSVG from '/assets/react.svg';
+import jquerySVG from '/assets/jquery-icon.svg';
+import mysqlSVG from '/assets/mysql-icon.svg';
+import bootstrapSVG from '/assets/bootstrap.svg';
+import oracleSVG from '/assets/oracle-icon.svg';
+import nodejsSVG from '/assets/nodejs.svg';
+import vuejsSVG from '/assets/vuejs.svg';
+import dockerSVG from '/assets/docker-tile.svg';
+import kubernetesSVG from '/assets/kubernetes-icon.svg';
+import gitSVG from '/assets/gitlab.svg';
+import postgresqlSVG from '/assets/postgresql.svg';
+import jiraSVG from '/assets/jira.svg';
 
 
 export default function Skills() {
     const [selectedSkillType, setSelectedSkillType] = useState('Languages');
 
     const skillsData = [
-        { name: 'JavaScript', type: 'language', description: 'Scripting language for web interactivity.', link: '/assets/javascript.svg' },
-        { name: 'TypeScript', type: 'language', description: 'Superset of JS with static typing features.', link: '/assets/typescript.svg' },
-        { name: 'HTML', type: 'language', description: 'Markup language for web development.', link: '/assets/html5.svg' },
-        { name: 'CSS', type: 'language', description: 'Styling for web applications.', link: '/assets/css3.svg' },
-        { name: 'C', type: 'language', description: 'Low-level programming for system development.', link: '/assets/C_Programming_Language.svg' },
-        { name: 'C++', type: 'language', description: 'Object-oriented, used in various applications.', link: '/assets/c.svg' },
+        { name: 'JavaScript', type: 'language', description: 'Scripting language for web interactivity.', link: javascriptSVG },
+        { name: 'TypeScript', type: 'language', description: 'Superset of JS with static typing features.', link: typescriptSVG },
+        { name: 'HTML', type: 'language', description: 'Markup language for web development.', link: htmlSVG },
+        { name: 'CSS', type: 'language', description: 'Styling for web applications.', link: cssSVG },
+        { name: 'C', type: 'language', description: 'Low-level programming for system development.', link: cSVG },
+        { name: 'C++', type: 'language', description: 'Object-oriented, used in various applications.', link: cppSVG },
         // { name: 'Assembly', type: 'language', description: 'Lowest level human-readable language.', link: '' },
-        { name: 'Python', type: 'language', description: 'Versatile language for web, data science, and more.', link: '/assets/python.svg' },
-        { name: 'Java', type: 'language', description: 'Object-oriented, used in various applications.', link: '/assets/java.svg' },
-        { name: 'PHP', type: 'language', description: 'Server-side scripting for web development.', link: '/assets/new-php-logo.svg' },
-        { name: 'SQL', type: 'language', description: 'Used for database queries.', link: '/assets/sql-database-generic.svg' },
-        { name: 'Flask', type: 'framework', description: 'Python micro web framework.', link: '/assets/pocoo_flask-icon.svg' },
-        { name: 'React', type: 'framework', description: 'JavaScript library for building user interfaces.', link: '/assets/react.svg' },
-        { name: 'JQuery', type: 'framework', description: 'JavaScript library for DOM manipulation.', link: '/assets/jquery-icon.svg' },
-        { name: 'MySQL', type: 'framework', description: 'Open-source relational database management system.', link: '/assets/mysql-icon.svg' },
-        { name: 'Bootstrap', type: 'framework', description: 'CSS framework for responsive design.', link: '/assets/bootstrap.svg' },
-        { name: 'Oracle Database', type: 'framework', description: 'Object-relational database management system.', link: '/assets/oracle-icon.svg' },
-        { name: 'Node.js', type: 'tool', description: 'Runtime for executing JavaScript on the server side.', link: '/assets/nodejs.svg' },
-        { name: 'Vue.js', type: 'framework', description: 'Progressive framework for building user interfaces.', link: '/assets/vuejs.svg' },
-        { name: 'Docker', type: 'tool', description: 'Platform for containerization.', link: '/assets/docker-tile.svg' },
-        { name: 'Kubernetes', type: 'tool', description: 'Container orchestration system.', link: '/assets/kubernetes-icon.svg' },
-        { name: 'Git', type: 'tool', description: 'Version control system.', link: '/assets/gitlab.svg' },
-        { name: 'PostgreSQL', type: 'framework', description: 'Open-source relational database.', link: '/assets/postgresql.svg' },
-        { name: 'Jira', type: 'tool', description: 'Project management tool.', link: '/assets/jira.svg' },
+        { name: 'Python', type: 'language', description: 'Versatile language for web, data science, and more.', link: pythonSVG },
+        { name: 'Java', type: 'language', description: 'Object-oriented, used in various applications.', link: javaSVG },
+        { name: 'PHP', type: 'language', description: 'Server-side scripting for web development.', link: phpSVG },
+        { name: 'SQL', type: 'language', description: 'Used for database queries.', link: sqlSVG },
+        { name: 'Flask', type: 'framework', description: 'Python micro web framework.', link: flaskSVG },
+        { name: 'React', type: 'framework', description: 'JavaScript library for building user interfaces.', link: reactSVG },
+        { name: 'JQuery', type: 'framework', description: 'JavaScript library for DOM manipulation.', link: jquerySVG },
+        { name: 'MySQL', type: 'framework', description: 'Open-source relational database management system.', link: mysqlSVG },
+        { name: 'Bootstrap', type: 'framework', description: 'CSS framework for responsive design.', link: bootstrapSVG },
+        { name: 'Oracle Database', type: 'framework', description: 'Object-relational database management system.', link: oracleSVG },
+        { name: 'Node.js', type: 'tool', description: 'Runtime for executing JavaScript on the server side.', link: nodejsSVG },
+        { name: 'Vue.js', type: 'framework', description: 'Progressive framework for building user interfaces.', link: vuejsSVG },
+        { name: 'Docker', type: 'tool', description: 'Platform for containerization.', link: dockerSVG },
+        { name: 'Kubernetes', type: 'tool', description: 'Container orchestration system.', link: kubernetesSVG },
+        { name: 'Git', type: 'tool', description: 'Version control system.', link: gitSVG },
+        { name: 'PostgreSQL', type: 'framework', description: 'Open-source relational database.', link: postgresqlSVG },
+        { name: 'Jira', type: 'tool', description: 'Project management tool.', link: jiraSVG },
     ];
 
 
