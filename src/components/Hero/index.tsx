@@ -1,6 +1,7 @@
 import "./index.css";
 import LinkButton from "../LinkButton";
 import { TypeAnimation } from 'react-type-animation';
+import resume from '/assets/resume.pdf';
 
 function Hero() {
     return (
@@ -22,7 +23,7 @@ function Hero() {
             <div id="hero-body">
                 <LinkButton href="https://github.com/wiadarola/" text="Github" newTab={true} />
                 <LinkButton href="https://www.linkedin.com/in/wiadarola/" text="LinkedIn" newTab={true} />
-                <LinkButton href="/portfolio/assets/resume.pdf" text="Resume" newTab={true} />
+                <LinkButton href={resume} text="Resume" newTab={true} />
                 <LinkButton href="#contact" text="Contact Me" newTab={false} />
             </div >
         </section>
