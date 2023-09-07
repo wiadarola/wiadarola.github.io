@@ -3,7 +3,7 @@ import Divider from '../Divider';
 import { useState } from 'react';
 
 export default function Skills() {
-    const [selectedSkillType, setSelectedSkillType] = useState('language');
+    const [selectedSkillType, setSelectedSkillType] = useState('Languages');
 
     const skillsData = [
         { name: 'JavaScript', type: 'language', description: 'Used in several frontend projects.' },
