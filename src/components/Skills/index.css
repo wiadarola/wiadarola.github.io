@@ -43,13 +43,16 @@
 }
 
 .skills-container::-webkit-scrollbar-thumb {
-    background-color: #cfcfcf;
+    background-color: #fffdfd;
 }
 
 .skills-container::-webkit-scrollbar-thumb:hover {
-    background: #b8b8b8;
+    background: #e2e2e2;
 }
 
+.skills-container::-webkit-scrollbar-track {
+    background: linear-gradient(to right, #19a2fd, #1dcaf5);
+}
 
 @media only screen and (max-width: 768px) {
     .skills-container {
