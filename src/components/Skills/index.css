@@ -18,14 +18,14 @@
     width: min-content;
 }
 
+.skill-group:hover {
+    cursor: pointer;
+    text-decoration: dashed underline;
+}
+
 .skill-group.active {
     text-decoration: underline;
     text-decoration-color: white;
-}
-
-.skill-group:hover {
-    cursor: pointer;
-    text-decoration: underline;
 }
 
 #skills-divider-container {

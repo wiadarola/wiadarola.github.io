@@ -1,6 +1,7 @@
 #portfolio {
     display: grid;
     grid-template-rows: auto 1fr;
+    height: 94vh;
 }
 
 .portfolio-header {
@@ -8,6 +9,10 @@
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
+}
+
+.portfolio-header h1 {
+    margin: 10px 0 30px 0;
 }
 
 .portfolio-header .link-button {
@@ -23,12 +28,20 @@
 
 .portfolio-row1 {
     display: grid;
-    grid-template-columns: 2.5fr 1fr;
-    grid-template-rows: 1fr;
+    grid-template-columns: 2fr 1.5fr;
+    gap: 20px;
+}
+
+.portfolio-row1 .project-box {
+    height: 95%;
 }
 
 .portfolio-row2 {
     display: grid;
-    grid-template-columns: 1fr 2.5fr;
-    grid-template-rows: 1fr;
+    grid-template-columns: 1.5fr 2fr;
+    gap: 20px;
+}
+
+.portfolio-row2 .project-box {
+    height: 90%;
 }

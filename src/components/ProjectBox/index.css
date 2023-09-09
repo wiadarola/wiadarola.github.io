@@ -6,20 +6,28 @@
     background-position: center;
     color: white;
     display: flex;
-    align-items: center;
-    justify-content: center;
-    font-size: 16pt;
-    text-align: left;
+    align-items: end;
+    justify-content: left;
+    transition: transform 0.1s ease-in-out;
+}
+
+.project-box:hover {
+    cursor: pointer;
+    transform: scale(1.02);
 }
 
 .project-box-content {
-    text-align: center;
+    text-align: left;
     padding: 20px;
+    background-color: rgba(0, 0, 0, 0.5);
+    height: 30%;
+    width: 60%;
 }
 
 .project-box-content h3 {
     margin: 0;
-    margin-bottom: 10px;
+    margin-bottom: 5px;
+    font-size: 25pt;
 }
 
 .project-box-content p {
@@ -30,4 +38,10 @@
 .project-box-content a {
     color: white;
     text-decoration: none;
+    font-weight: 700;
+    font-size: 10pt;
+}
+
+.project-box-content a:hover {
+    text-decoration: underline;
 }

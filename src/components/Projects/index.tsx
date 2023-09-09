@@ -12,30 +12,30 @@ function Projects() {
             <div className="portfolio-container">
                 <div className="portfolio-row1">
                     <ProjectBox
-                        title="Project 1"
+                        title="Spotify Clone"
                         description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, nisl quis aliquam ultricies."
                         image="/assets/projectimg-music.jpg"
-                        link=" https://www.google.com/"
+                        link="https://wiadarola.github.io/spotify-clone/"
                     />
                     <ProjectBox
-                        title="Project 2"
+                        title="React ToDo App"
                         description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, nisl quis aliquam ultricies."
                         image="/assets/projectimg-notes.jpg"
-                        link="https://www.google.com/"
+                        link="https://wiadarola.github.io/react-ts-todo/"
                     />
                 </div>
                 <div className="portfolio-row2">
                     <ProjectBox
-                        title="Project 3"
+                        title="MTG Price Predictor"
                         description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, nisl quis aliquam ultricies."
-                        image="https://via.placeholder.com/300"
-                        link="https://www.google.com/"
+                        image="/assets/projectimg-stock.webp"
+                        link=" https://github.com/wiadarola/mtg-price-predictor"
                     />
                     <ProjectBox
-                        title="Project 3"
+                        title="CNN Depth Estimator"
                         description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, nisl quis aliquam ultricies."
-                        image="https://via.placeholder.com/300"
-                        link="https://www.google.com/"
+                        image="/assets/projectimg-bino.jpeg"
+                        link="https://github.com/wiadarola/CV-Monocular-Depth-Estimator"
                     />
                 </div>
             </div>
