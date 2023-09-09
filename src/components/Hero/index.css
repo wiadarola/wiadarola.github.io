@@ -4,6 +4,7 @@
     justify-content: center;
     align-items: center;
     gap: 30px;
+    width: 100%;
 }
 
 .hero-header {
@@ -30,7 +31,24 @@
 }
 
 .hero-body .link-button {
-    width: 70%;
+    width: 65%;
     display: flex;
     justify-self: center;
+    font-size: clamp(18pt, 2vw, 40pt);
+}
+
+@media screen and (max-width: 768px) {
+    .hero-body {
+        grid-template-columns: 1fr 1fr;
+        gap: 10px;
+        width: 60%;
+    }
+}
+
+@media screen and (max-width: 425px) {
+    .hero-body {
+        grid-template-columns: 1fr;
+        gap: 10px;
+        width: 80%;
+    }
 }

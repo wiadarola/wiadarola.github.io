@@ -25,7 +25,7 @@ function Hero() {
                 <LinkButton href="https://github.com/wiadarola/" text="Github" newTab={true} />
                 <LinkButton href="https://www.linkedin.com/in/wiadarola/" text="LinkedIn" newTab={true} />
                 <LinkButton href={resume} text="Resume" newTab={true} />
-                <LinkButton href="#contact" text="Contact Me" newTab={false} />
+                <LinkButton href="#contact" text="Contact" newTab={false} />
             </div >
         </section>
     );
