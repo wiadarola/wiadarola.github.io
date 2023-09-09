@@ -96,6 +96,7 @@ function SkillCard({ skill }: { skill: { name: string; type: string; description
                 <span className='card-back-name'>{skill.name}</span>
             </div>
             <div className='card-back'>
+                <span className='card-back-name'>{skill.name}</span>
                 <span className='card-back-desc'>{skill.description}</span>
             </div>
         </div>
