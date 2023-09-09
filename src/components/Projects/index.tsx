@@ -13,13 +13,13 @@ function Projects() {
                 <div className="portfolio-row1">
                     <ProjectBox
                         title="Project 1"
-                        description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, nisl quis aliquam ultricies, nunc nisl aliquet nunc, vitae aliquam nisl nunc vitae nisl. Sed euismod, nisl quis aliquam ultricies, nunc nisl aliquet nunc, vitae aliquam nisl nunc vitae nisl."
+                        description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, nisl quis aliquam ultricies."
                         image="/assets/projectimg-music.jpg"
                         link=" https://www.google.com/"
                     />
                     <ProjectBox
                         title="Project 2"
-                        description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, nisl quis aliquam ultricies, nunc nisl aliquet nunc, vitae aliquam nisl nunc vitae nisl. Sed euismod, nisl quis aliquam ultricies, nunc nisl aliquet nunc, vitae aliquam nisl nunc vitae nisl."
+                        description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, nisl quis aliquam ultricies."
                         image="/assets/projectimg-notes.jpg"
                         link="https://www.google.com/"
                     />
@@ -27,13 +27,13 @@ function Projects() {
                 <div className="portfolio-row2">
                     <ProjectBox
                         title="Project 3"
-                        description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, nisl quis aliquam ultricies, nunc nisl aliquet nunc, vitae aliquam nisl nunc vitae nisl. Sed euismod, nisl quis aliquam ultricies, nunc nisl aliquet nunc, vitae aliquam nisl nunc vitae nisl."
+                        description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, nisl quis aliquam ultricies."
                         image="https://via.placeholder.com/300"
                         link="https://www.google.com/"
                     />
                     <ProjectBox
                         title="Project 3"
-                        description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, nisl quis aliquam ultricies, nunc nisl aliquet nunc, vitae aliquam nisl nunc vitae nisl. Sed euismod, nisl quis aliquam ultricies, nunc nisl aliquet nunc, vitae aliquam nisl nunc vitae nisl."
+                        description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, nisl quis aliquam ultricies."
                         image="https://via.placeholder.com/300"
                         link="https://www.google.com/"
                     />
