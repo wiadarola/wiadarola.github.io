@@ -6,21 +6,22 @@ import resume from '/assets/resume.pdf';
 function Hero() {
     return (
         <section id="hero" className="page-section">
-            <header id="hero-header">
-                <p id="name">WILLIAM IADAROLA</p>
+            <header className="hero-header">
+                <p className="hero-name">WILLIAM IADAROLA</p>
                 <TypeAnimation
                     sequence={['Full-Stack Software Engineer.']}
                     speed={1}
                     style={{
-                        fontSize: '50px',
+                        fontSize: 'clamp(23.5pt, 4vw, 70pt)',
                         fontWeight: '800',
                         wordWrap: 'break-word',
-                        cursor: 'default'
+                        cursor: 'default',
+                        textAlign: 'center',
                     }}
                     cursor={true}
                 />
             </header >
-            <div id="hero-body">
+            <div className="hero-body">
                 <LinkButton href="https://github.com/wiadarola/" text="Github" newTab={true} />
                 <LinkButton href="https://www.linkedin.com/in/wiadarola/" text="LinkedIn" newTab={true} />
                 <LinkButton href={resume} text="Resume" newTab={true} />

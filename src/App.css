@@ -1,5 +1,5 @@
 :root {
-  --lr-padding: 12%;
+  --lr-padding: 10%;
 }
 
 html {
@@ -7,8 +7,8 @@ html {
 }
 
 body {
-  font-family: 'Open Sans', sans-serif;
   margin: 0;
+  font-family: 'Open Sans', sans-serif;
   scrollbar-width: thin;
   scrollbar-color: #888 #f1f1f1;
 }
@@ -35,7 +35,7 @@ body {
 .page-section {
   padding-right: var(--lr-padding);
   padding-left: var(--lr-padding);
-  height: 95vh;
+  height: 100vh;
   overflow: hidden;
   background-color: white;
   color: black;
@@ -45,6 +45,8 @@ h1.header {
   font-size: 60px;
   font-weight: 700;
   cursor: default;
+  margin: 0;
+  padding: 0;
 }
 
 .divider {

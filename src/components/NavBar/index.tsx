@@ -8,8 +8,8 @@ import LinkButton from '../LinkButton';
 function NavBar() {
     return (
         <section id="navbar">
-            <div id='bar'></div>
-            <label id='nametag'>WJI.</label>
+            <div id='nav-bar'></div>
+            <label id='nav-tag'>WJI.</label>
             <LinkButton href="#contact" text="Contact" newTab={false} />
         </section>
     );

@@ -20,10 +20,3 @@
 #nav-top.hidden {
     opacity: 0;
 }
-
-@media screen and (max-width: 768px) {
-    #nav-top {
-        display: none;
-    }
-
-}

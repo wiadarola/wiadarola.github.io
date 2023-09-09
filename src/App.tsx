@@ -14,8 +14,8 @@ function App() {
       < NavBar />
       < NavTop />
       < Hero />
-      < Skills />
-      < Projects />
+      {/* < Skills /> */}
+      {/* < Projects /> */}
       {/* < Description /> */}
       {/* < About /> */}
       {/* < Contact /> */}
