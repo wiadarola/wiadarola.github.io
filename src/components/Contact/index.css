@@ -81,16 +81,11 @@
 
 .form-input {
     color: white;
-    outline: none;
     padding: 15px;
     background-color: #333;
     border: 1px solid #555;
     font-weight: 600;
     font-size: 16pt;
-}
-
-.form-input:focus {
-    border-color: #0077ff;
 }
 
 textarea.form-txt {
