@@ -12,9 +12,9 @@
     transition: all 0.3s ease-in-out;
 }
 
-.nav.hidden {
+/* .nav.hidden {
     transform: translateY(-100%);
-}
+} */
 
 #nav-bar {
     width: 10%;

@@ -12,8 +12,10 @@
 }
 
 #about .link-button {
-    font-weight: 700;
+    font-size: clamp(12pt, 2vw, 20pt);
+    border-radius: 0;
 }
+
 
 #about>div:nth-of-type(1) {
     display: flex;

@@ -12,13 +12,13 @@ function Projects() {
                 <div>
                     <ProjectBox
                         title="React ToDo App"
-                        description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, nisl quis aliquam ultricies."
+                        description="React TypeScript project completed to gain familiarity with the tools."
                         image="/assets/projectimg-notes.jpg"
                         link="https://wiadarola.github.io/react-ts-todo/"
                     />
                     <ProjectBox
                         title="Spotify Clone"
-                        description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, nisl quis aliquam ultricies."
+                        description="TBD."
                         image="/assets/projectimg-music.jpg"
                         link="https://wiadarola.github.io/spotify-clone/"
                     />
@@ -26,13 +26,13 @@ function Projects() {
                 <div>
                     <ProjectBox
                         title="CNN Depth Estimator"
-                        description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, nisl quis aliquam ultricies."
+                        description="A convolutional NN that can perform monocular depth estimation. Created using Numpy, scikit-learn, & PyTorch."
                         image="/assets/projectimg-bino.jpeg"
                         link="https://github.com/wiadarola/CV-Monocular-Depth-Estimator"
                     />
                     <ProjectBox
                         title="MTG Price Predictor"
-                        description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, nisl quis aliquam ultricies."
+                        description="Utilizes regression techniques to estimate a Magic the Gathering card's price (USD) on online marketplaces."
                         image="/assets/projectimg-stock.webp"
                         link=" https://github.com/wiadarola/mtg-price-predictor"
                     />
