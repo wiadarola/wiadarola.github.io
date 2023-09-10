@@ -43,15 +43,15 @@
 }
 
 .skills-container::-webkit-scrollbar-thumb {
-    background-color: #fffdfd;
+    background-color: #e9e7e7;
 }
 
 .skills-container::-webkit-scrollbar-thumb:hover {
-    background: #e2e2e2;
+    background: #aaa9a9;
 }
 
 .skills-container::-webkit-scrollbar-track {
-    background: linear-gradient(to right, #19a2fd, #1dcaf5);
+    background: #2e2e2e;
 }
 
 .skill-icon {
@@ -74,6 +74,12 @@
     cursor: pointer;
     width: 150px;
     height: 150px;
+    transition: all 0.1s ease-in-out;
+
+}
+
+.skill-card:hover {
+    transform: scale(1.01);
 }
 
 .card-back span {
@@ -100,7 +106,7 @@
 }
 
 .card-front {
-    background: linear-gradient(135deg, #FF6B6B, #FF9F43);
+    background: linear-gradient(135deg, #b8b8b8, #80858a);
     color: white;
     display: grid;
     grid-template-rows: auto 1fr;
@@ -112,7 +118,7 @@
 }
 
 .card-back {
-    background: linear-gradient(135deg, #FF6B6B, #FF9F43);
+    background: linear-gradient(-135deg, #b8b8b8, #80858a);
     color: white;
     transform: rotateY(180deg);
     padding: 2px;
@@ -124,11 +130,11 @@
     z-index: 1;
 }
 
-.skill-card:hover .card-front {
+.skill-card .card-front.active {
     transform: rotateY(180deg);
 }
 
-.skill-card:hover .card-back {
+.skill-card .card-back.active {
     transform: rotateY(0deg);
 }
 

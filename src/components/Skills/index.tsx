@@ -89,13 +89,15 @@ export default function Skills() {
 
 const needBackground = new Set().add('/assets/java.svg').add('/assets/nodejs.svg').add('/assets/mysql-icon.svg');
 function SkillCard({ skill }: { skill: { name: string; type: string; description: string; link: string } }) {
+    const [isFlipped, setIsFlipped] = useState(false);
+
     return (
         <div className='skill-card'>
-            <div className='card-front'>
+            <div className={`card-front ${isFlipped ? 'active' : ''}`} onClick={() => setIsFlipped(true)}>
                 <img src={skill.link} alt={`${skill.name} icon`} className={`skill-icon ${needBackground.has(skill.link) ? 'background' : ''}`} />
                 <span className='card-back-name'>{skill.name}</span>
             </div>
-            <div className='card-back'>
+            <div className={`card-back ${isFlipped ? 'active' : ''}`} onClick={() => { setIsFlipped(false); }}>
                 <span className='card-back-name'>{skill.name}</span>
                 <span className='card-back-desc'>{skill.description}</span>
             </div>
