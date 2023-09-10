@@ -45,7 +45,7 @@ export default function Skills() {
         { name: 'JQuery', type: 'framework', description: 'JavaScript library for DOM manipulation.', link: jquerySVG },
         { name: 'MySQL', type: 'framework', description: 'Open-source relational database management system.', link: mysqlSVG },
         { name: 'Bootstrap', type: 'framework', description: 'CSS framework for responsive design.', link: bootstrapSVG },
-        { name: 'Oracle Database', type: 'framework', description: 'Object-relational database management system.', link: oracleSVG },
+        { name: 'Oracle DB', type: 'framework', description: 'Object-relational database management system.', link: oracleSVG },
         { name: 'Node.js', type: 'tool', description: 'Runtime for executing JavaScript on the server side.', link: nodejsSVG },
         { name: 'Vue.js', type: 'framework', description: 'Progressive framework for building user interfaces.', link: vuejsSVG },
         { name: 'Docker', type: 'tool', description: 'Platform for containerization.', link: dockerSVG },
@@ -61,7 +61,7 @@ export default function Skills() {
             < Divider id='skills-divider-container' content={
                 <>
                     <div id='skills-header'>
-                        <h1>SKILLS</h1>
+                        <header>SKILLS</header>
                         <div>
                             {['Languages', 'Frameworks', 'Tools'].map(type =>
                                 <span key={`${type}-span`}
@@ -72,17 +72,19 @@ export default function Skills() {
                             )}
                         </div>
                     </div>
-                    {['Frameworks', 'Languages', 'Tools'].map(type => selectedSkillType === type && (
-                        <div key={type} className='skills-type' id={`${type}-skills-container`}>
-                            <div className='skills-container'>
-                                {skillsData.filter(skill => type.toLowerCase().includes(skill.type)).map(skill => (
-                                    <Fragment key={skill.link}>
-                                        <SkillCard skill={skill} />
-                                    </Fragment>
-                                ))}
+                    <div id='skills-content'>
+                        {['Frameworks', 'Languages', 'Tools'].map(type => selectedSkillType === type && (
+                            <div key={type} className='skills-type' id={`${type}-skills-container`}>
+                                <div className='skills-container'>
+                                    {skillsData.filter(skill => type.toLowerCase().includes(skill.type)).map(skill => (
+                                        <Fragment key={skill.link}>
+                                            <SkillCard skill={skill} />
+                                        </Fragment>
+                                    ))}
+                                </div>
                             </div>
-                        </div>
-                    ))}
+                        ))}
+                    </div>
                 </>
             } />
         </div>
@@ -97,7 +99,7 @@ function SkillCard({ skill }: { skill: { name: string; type: string; description
         <div className='skill-card'>
             <div className={`card-front ${isFlipped ? 'active' : ''}`} onClick={() => setIsFlipped(true)}>
                 <img src={skill.link} alt={`${skill.name} icon`} className={`skill-icon ${needBackground.has(skill.link) ? 'background' : ''}`} />
-                <span className='card-back-name'>{skill.name}</span>
+                <span className='card-front-name'>{skill.name}</span>
             </div>
             <div className={`card-back ${isFlipped ? 'active' : ''}`} onClick={() => { setIsFlipped(false); }}>
                 <span className='card-back-name'>{skill.name}</span>
