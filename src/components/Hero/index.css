@@ -25,7 +25,7 @@
 }
 
 .hero-body {
-    width: 80%;
+    width: 70%;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
 }
@@ -34,7 +34,7 @@
     width: 65%;
     display: flex;
     justify-self: center;
-    font-size: clamp(18pt, 2vw, 40pt);
+    font-size: clamp(18pt, 2vw, 50pt);
 }
 
 @media screen and (max-width: 768px) {
