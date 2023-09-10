@@ -6,7 +6,7 @@ import Skills from './components/Skills';
 import Projects from './components/Projects';
 import Description from './components/Description';
 import About from './components/About';
-// import Contact from './components/Contact';
+import Contact from './components/Contact';
 
 function App() {
   return (
@@ -18,7 +18,7 @@ function App() {
       < Projects />
       < Description />
       < About />
-      {/* < Contact /> */}
+      < Contact />
     </>
   );
 }
