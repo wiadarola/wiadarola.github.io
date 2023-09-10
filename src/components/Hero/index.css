@@ -16,7 +16,7 @@
 }
 
 .hero-name {
-    font-size: clamp(35pt, 7vw, 150pt);
+    font-size: clamp(35pt, 6vw, 150pt);
     font-weight: 800;
     cursor: default;
     text-align: center;
@@ -31,10 +31,10 @@
 }
 
 .hero-body .link-button {
-    width: 65%;
+    width: 55%;
     display: flex;
     justify-self: center;
-    font-size: clamp(18pt, 2vw, 50pt);
+    font-size: clamp(18pt, 1.5vw, 50pt);
 }
 
 @media screen and (max-width: 768px) {

@@ -8,7 +8,7 @@
 
 #about>div>header {
     font-weight: 800;
-    font-size: clamp(18pt, 4vw, 100pt);
+    font-size: clamp(18pt, 3vw, 100pt);
 }
 
 #about .link-button {
@@ -21,6 +21,7 @@
     align-items: center;
     justify-content: space-between;
     width: 100%;
+    margin-top: 12px;
 }
 
 #about>div:nth-of-type(2) {
@@ -34,10 +35,11 @@
 }
 
 #about>div>span {
-    font-size: clamp(1.5rem, 2vw, 2rem);
+    font-family: 'Times New Roman', Times, serif;
+    font-size: clamp(1rem, 2vw, 3rem);
     font-weight: 500;
 }
 
 #about span.highlight {
-    font-weight: 800;
+    font-weight: 600;
 }

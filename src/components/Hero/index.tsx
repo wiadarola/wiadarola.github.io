@@ -12,7 +12,7 @@ function Hero() {
                     sequence={['Full-Stack Software Engineer.']}
                     speed={1}
                     style={{
-                        fontSize: 'clamp(23.5pt, 4vw, 70pt)',
+                        fontSize: 'clamp(23.5pt, 3.5vw, 70pt)',
                         fontWeight: '800',
                         wordWrap: 'break-word',
                         cursor: 'default',
