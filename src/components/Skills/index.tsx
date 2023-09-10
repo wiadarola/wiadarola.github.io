@@ -62,13 +62,15 @@ export default function Skills() {
                 <>
                     <div id='skills-header'>
                         <h1>SKILLS</h1>
-                        {['Languages', 'Frameworks', 'Tools'].map(type =>
-                            <span key={`${type}-span`}
-                                className={`skill-group ${selectedSkillType === type ? 'active' : ''}`}
-                                onClick={() => setSelectedSkillType(type)}>
-                                {type}
-                            </span>
-                        )}
+                        <div>
+                            {['Languages', 'Frameworks', 'Tools'].map(type =>
+                                <span key={`${type}-span`}
+                                    className={`skill-group ${selectedSkillType === type ? 'active' : ''}`}
+                                    onClick={() => setSelectedSkillType(type)}>
+                                    {type}
+                                </span>
+                            )}
+                        </div>
                     </div>
                     {['Frameworks', 'Languages', 'Tools'].map(type => selectedSkillType === type && (
                         <div key={type} className='skills-type' id={`${type}-skills-container`}>
@@ -87,7 +89,7 @@ export default function Skills() {
     );
 }
 
-const needBackground = new Set().add('/assets/java.svg').add('/assets/nodejs.svg').add('/assets/mysql-icon.svg');
+const needBackground = new Set()/* .add('/assets/java.svg').add('/assets/nodejs.svg').add('/assets/mysql-icon.svg'); */
 function SkillCard({ skill }: { skill: { name: string; type: string; description: string; link: string } }) {
     const [isFlipped, setIsFlipped] = useState(false);
 

@@ -1,15 +1,24 @@
 #skills h1 {
     margin: 0;
-    padding-top: 5px;
+    margin-top: 5px;
     font-weight: 700;
     font-size: 33pt;
 }
 
 #skills-header {
     display: grid;
-    grid-auto-flow: column;
+    grid-template-columns: auto 1fr;
     align-items: center;
-    margin: 0 10%;
+    width: 90%;
+    margin: 0 auto;
+}
+
+#skills-header>div {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 80%;
+    margin: 0 auto;
 }
 
 .skill-group {
@@ -36,10 +45,12 @@
     display: grid;
     grid-auto-flow: column;
     grid-template-rows: auto;
+    margin-bottom: 10px;
     padding-bottom: 10px;
     overflow-x: auto;
     overflow-y: hidden;
-    margin: 0 4%;
+    width: 90%;
+    margin: 0 auto;
 }
 
 .skills-container::-webkit-scrollbar-thumb {
@@ -106,8 +117,7 @@
 }
 
 .card-front {
-    background: linear-gradient(135deg, #b8b8b8, #80858a);
-    color: white;
+    background: linear-gradient(135deg, #ffffff, #f0eeee);
     display: grid;
     grid-template-rows: auto 1fr;
     justify-items: center;
@@ -118,8 +128,7 @@
 }
 
 .card-back {
-    background: linear-gradient(-135deg, #b8b8b8, #80858a);
-    color: white;
+    background: linear-gradient(135deg, #ffffff, #f0eeee);
     transform: rotateY(180deg);
     padding: 2px;
 }
@@ -128,6 +137,7 @@
 .card-back span {
     position: relative;
     z-index: 1;
+    color: black;
 }
 
 .skill-card .card-front.active {
@@ -160,9 +170,13 @@
     }
 
     #skills-header {
-        grid-auto-flow: row;
-        justify-content: center;
-        transform: translate(0, -40px);
+        display: flex;
+        flex-direction: column;
+        transform: translate(0, -10px);
+    }
+
+    #skills-header>div {
+        flex-direction: column;
     }
 
     .skills-type {
