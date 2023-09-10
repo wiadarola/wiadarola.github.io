@@ -25,7 +25,7 @@ function NavBar() {
     }, []);
 
     return (
-        <section id="navbar" className={`nav ${mousePos.y > (1 / 4 * window.innerHeight) ? 'hidden' : ''}`}>
+        <section id="navbar" className={`nav ${mousePos.y > (1 / 5 * window.innerHeight) ? 'hidden' : ''}`}>
             <div id='nav-bar'></div>
             <label id='nav-tag'>WJI.</label>
             <LinkButton href="#contact" text="Contact" newTab={false} />

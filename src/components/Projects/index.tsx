@@ -58,8 +58,9 @@ function ProjectBox(props: ProjectBoxProps) {
         <div onClick={handleClick} className="project-box" style={{ backgroundImage: `url(${props.image})` }}>
             <div className="project-box-content">
                 <header>{props.title}</header>
-                <p>{props.description}</p>
+                <span>{props.description}</span>
                 <a href={props.link} target="_blank" rel="noreferrer">LEARN MORE</a>
+                <a href={props.link} target="_blank" rel="noreferrer" style={{ display: 'none' }}>Click to learn more!</a>
             </div>
         </div>
     );

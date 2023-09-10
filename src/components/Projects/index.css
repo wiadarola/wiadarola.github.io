@@ -61,16 +61,22 @@
 .project-box-content {
     background-color: rgba(0, 0, 0, 0.5);
     color: white;
+    width: 100%;
+    height: 30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    padding: 5px 0 5px 5px;
 }
 
 .project-box-content header {
     font-weight: 800;
-    font-size: 14pt;
+    font-size: 16pt;
 }
 
-.project-box-content p {
+.project-box-content span {
     font-weight: 600;
-    font-size: 10pt;
+    font-size: 12pt;
 }
 
 .project-box-content a {
@@ -82,4 +88,44 @@
 
 .project-box-content a:hover {
     text-decoration: underline;
+}
+
+@media screen and (max-width: 425px) {
+    .projects-content {
+        grid-auto-flow: column;
+    }
+
+    .projects-content>div:nth-child(1) {
+        grid-template-columns: 1fr;
+    }
+
+    .projects-content>div:nth-child(2) {
+        grid-template-columns: 1fr;
+    }
+
+    .project-box-content span {
+        display: none;
+    }
+
+    .project-box-content>a:nth-of-type(1) {
+        display: none;
+    }
+
+    .project-box-content>a:nth-of-type(2) {
+        display: block !important;
+    }
+}
+
+@media screen and (min-width: 1921px) {
+    .project-box-content header {
+        font-size: clamp(16pt, 3vw, 35pt);
+    }
+
+    .project-box-content span {
+        font-size: clamp(12pt, 2vw, 22pt);
+    }
+
+    .project-box-content a {
+        font-size: clamp(12pt, 2vw, 20pt);
+    }
 }

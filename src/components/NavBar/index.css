@@ -57,11 +57,6 @@
 
 @media screen and (max-width: 425px) {
     #navbar {
-        display: flex;
-        justify-content: center;
-    }
-
-    #navbar .link-button {
         display: none;
     }
 }
