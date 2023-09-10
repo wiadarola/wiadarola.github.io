@@ -1,47 +1,85 @@
-#portfolio {
-    display: grid;
-    grid-template-rows: auto 1fr;
-    height: 94vh;
+/* LAYOUT */
+
+.projects {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    margin: 0 auto;
 }
 
-.portfolio-header {
+.projects-header {
     display: flex;
-    flex-direction: row;
     justify-content: space-between;
     align-items: center;
+    margin-top: 10px;
 }
 
-.portfolio-header h1 {
-    margin: 10px 0 30px 0;
+.projects-title {
+    font-weight: 800;
+    font-size: clamp(18pt, 4vw, 100pt);
 }
 
-.portfolio-header .link-button {
-    border-radius: 0%;
-    width: 200px;
-    height: 50px;
-}
-
-.portfolio-container {
+.projects-content {
+    flex: 0.9;
     display: grid;
-    grid-auto-flow: row;
+    grid-template-rows: 1fr 1fr;
+    gap: 10px;
+    margin: auto 0;
 }
 
-.portfolio-row1 {
+.projects-content>div {
+    gap: 10px;
+}
+
+.projects-content>div:nth-child(1) {
     display: grid;
-    grid-template-columns: 2fr 1.5fr;
-    gap: 20px;
+    grid-template-columns: 4fr 3fr;
 }
 
-.portfolio-row1 .project-box {
-    height: 95%;
-}
-
-.portfolio-row2 {
+.projects-content>div:nth-child(2) {
     display: grid;
-    grid-template-columns: 1.5fr 2fr;
-    gap: 20px;
+    grid-template-columns: 3fr 4fr;
 }
 
-.portfolio-row2 .project-box {
-    height: 90%;
+/* PROJECT BOXES */
+.project-box {
+    height: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    transition: all 0.1s ease-in-out;
+    display: flex;
+    align-items: flex-end;
+}
+
+.project-box:hover {
+    cursor: pointer;
+    transform: scale(1.01);
+}
+
+.project-box-content {
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+}
+
+.project-box-content header {
+    font-weight: 800;
+    font-size: 14pt;
+}
+
+.project-box-content p {
+    font-weight: 600;
+    font-size: 10pt;
+}
+
+.project-box-content a {
+    color: white;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 12pt;
+}
+
+.project-box-content a:hover {
+    text-decoration: underline;
 }
