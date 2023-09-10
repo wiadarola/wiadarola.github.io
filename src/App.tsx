@@ -4,8 +4,8 @@ import NavTop from './components/NavTop';
 import Hero from './components/Hero';
 import Skills from './components/Skills';
 import Projects from './components/Projects';
-// import Description from './components/Description';
-// import About from './components/About';
+import Description from './components/Description';
+import About from './components/About';
 // import Contact from './components/Contact';
 
 function App() {
@@ -16,8 +16,8 @@ function App() {
       < Hero />
       < Skills />
       < Projects />
-      {/* < Description /> */}
-      {/* < About /> */}
+      < Description />
+      < About />
       {/* < Contact /> */}
     </>
   );
