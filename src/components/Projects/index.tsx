@@ -3,7 +3,7 @@ import LinkButton from "../LinkButton";
 
 function Projects() {
     return (
-        <section className="projects">
+        <section className="projects" id="projects">
             <div className="projects-header">
                 <header className="projects-title">PROJECTS</header>
                 < LinkButton href="https://github.com/wiadarola/" text="GitHub" newTab={true} />
