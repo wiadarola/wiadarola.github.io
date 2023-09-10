@@ -9,17 +9,23 @@ footer {
 
 footer span {
     font-family: 'Open Sans', sans-serif;
-    font-weight: 600;
+    font-weight: 700;
     font-size: 14pt;
 }
 
 footer a {
     color: black;
     font-family: 'Open Sans', sans-serif;
-    font-weight: 600;
-    font-size: 14pt;
+    font-weight: 700;
+    font-size: 16pt;
 }
 
 footer a:hover {
     color: #333;
+}
+
+@media screen and (max-width: 768px) {
+    footer {
+        display: none;
+    }
 }
