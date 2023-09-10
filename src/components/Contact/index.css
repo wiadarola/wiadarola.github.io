@@ -101,7 +101,8 @@ textarea.form-txt {
     border: 1px solid #555;
     font-weight: 600;
     font-size: 16pt;
-    color: white
+    color: white;
+    padding: 8px 0 0 8px;
 }
 
 /* BUTTON STYLES */
@@ -143,7 +144,6 @@ button:active {
     }
 
     .form-txt {
-        padding: 8px 0 0 8px;
         width: 100%;
     }
 }
