@@ -39,7 +39,7 @@ function Projects() {
                     />
                     <ProjectBox
                         title="CNN Depth Estimator"
-                        description="A convolutional NN that can perform monocular depth estimation. Created using Numpy, scikit-learn, & PyTorch."
+                        description="A nerual network that performs monocular depth estimation. Created using Numpy, scikit-learn, & PyTorch."
                         image={CNNImg}
                         link="https://github.com/wiadarola/CV-Monocular-Depth-Estimator"
                     />
