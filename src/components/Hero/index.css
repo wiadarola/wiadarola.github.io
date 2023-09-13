@@ -25,7 +25,7 @@
 }
 
 .hero-body {
-    width: 70%;
+    width: 60%;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
 }
