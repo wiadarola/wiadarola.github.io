@@ -3,7 +3,8 @@ import LinkButton from "../LinkButton";
 import ToDoImg from "/assets/projectimg-notes.jpg";
 import SpotifyImg from "/assets/projectimg-music.jpg";
 import CNNImg from "/assets/projectimg-bino.jpeg";
-import MTGImg from "/assets/projectimg-stock.webp";
+// import MTGImg from "/assets/projectimg-stock.webp";
+import MTGImg from "/assets/stonks-without-stonks.jpg";
 
 function Projects() {
     return (
@@ -15,24 +16,10 @@ function Projects() {
             <div className="projects-content">
                 <div>
                     <ProjectBox
-                        title="React ToDo App"
-                        description="React TypeScript project completed to gain familiarity with the tools."
-                        image={ToDoImg}
-                        link="https://wiadarola.github.io/react-ts-todo/"
-                    />
-                    <ProjectBox
                         title="Spotify Clone"
                         description="TBD."
                         image={SpotifyImg}
                         link="https://wiadarola.github.io/spotify-clone/"
-                    />
-                </div>
-                <div>
-                    <ProjectBox
-                        title="CNN Depth Estimator"
-                        description="A convolutional NN that can perform monocular depth estimation. Created using Numpy, scikit-learn, & PyTorch."
-                        image={CNNImg}
-                        link="https://github.com/wiadarola/CV-Monocular-Depth-Estimator"
                     />
                     <ProjectBox
                         title="MTG Price Predictor"
@@ -40,6 +27,23 @@ function Projects() {
                         image={MTGImg}
                         link=" https://github.com/wiadarola/mtg-price-predictor"
                     />
+
+
+                </div>
+                <div>
+                    <ProjectBox
+                        title="React ToDo App"
+                        description="React TypeScript project completed to gain familiarity with the tools."
+                        image={ToDoImg}
+                        link="https://wiadarola.github.io/react-ts-todo/"
+                    />
+                    <ProjectBox
+                        title="CNN Depth Estimator"
+                        description="A convolutional NN that can perform monocular depth estimation. Created using Numpy, scikit-learn, & PyTorch."
+                        image={CNNImg}
+                        link="https://github.com/wiadarola/CV-Monocular-Depth-Estimator"
+                    />
+
                 </div>
             </div>
         </section>
