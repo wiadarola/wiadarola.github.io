@@ -3,7 +3,6 @@ import LinkButton from "../LinkButton";
 import ToDoImg from "/assets/projectimg-notes.jpg";
 import SpotifyImg from "/assets/projectimg-music.jpg";
 import CNNImg from "/assets/projectimg-bino.jpeg";
-// import MTGImg from "/assets/projectimg-stock.webp";
 import MTGImg from "/assets/stonks-without-stonks.jpg";
 
 function Projects() {
@@ -23,12 +22,10 @@ function Projects() {
                     />
                     <ProjectBox
                         title="MTG Price Predictor"
-                        description="Utilizes regression techniques to estimate a Magic the Gathering card's price (USD) on online marketplaces."
+                        description="Utilizes regression techniques to estimate Magic the Gathering card prices (USD) on online marketplaces."
                         image={MTGImg}
                         link=" https://github.com/wiadarola/mtg-price-predictor"
                     />
-
-
                 </div>
                 <div>
                     <ProjectBox
@@ -43,7 +40,6 @@ function Projects() {
                         image={CNNImg}
                         link="https://github.com/wiadarola/CV-Monocular-Depth-Estimator"
                     />
-
                 </div>
             </div>
         </section>
