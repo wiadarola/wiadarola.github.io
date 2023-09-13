@@ -4,6 +4,7 @@
     color: white;
     display: grid;
     grid-template-rows: auto 1fr;
+    margin-top: 20px;
 }
 
 #contact>div>header {
@@ -11,6 +12,7 @@
     font-size: clamp(18pt, 3vw, 100pt);
     width: 90%;
     margin: 0 auto;
+    padding-top: 3%;
 }
 
 #contact>div:nth-of-type(1) {

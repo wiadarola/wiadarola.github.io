@@ -59,7 +59,7 @@ export default function Skills() {
     return (
         <div id='skills'>
             < Divider id='skills-divider-container' content={
-                <>
+                <div>
                     <div id='skills-header'>
                         <header>SKILLS</header>
                         <div>
@@ -85,13 +85,13 @@ export default function Skills() {
                             </div>
                         ))}
                     </div>
-                </>
+                </div>
             } />
         </div>
     );
 }
 
-const needBackground = new Set()/* .add('/assets/java.svg').add('/assets/nodejs.svg').add('/assets/mysql-icon.svg'); */
+const needBackground = new Set()
 function SkillCard({ skill }: { skill: { name: string; type: string; description: string; link: string } }) {
     const [isFlipped, setIsFlipped] = useState(false);
 

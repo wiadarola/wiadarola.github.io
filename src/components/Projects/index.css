@@ -6,6 +6,7 @@
     flex-direction: column;
     width: 90%;
     margin: 0 auto;
+    margin-top: 20px;
 }
 
 .projects-header {
@@ -68,7 +69,7 @@
 .project-box-content {
     background-color: rgba(0, 0, 0, 0.8);
     color: white;
-    width: 80%;
+    width: 100%;
     height: max-content;
     display: flex;
     flex-direction: column;
@@ -84,7 +85,7 @@
 
 .project-box-content span {
     font-weight: 600;
-    font-size: 12pt;
+    font-size: 14pt;
 }
 
 .project-box-content a {
