@@ -16,7 +16,7 @@ function Projects() {
                 <div>
                     <ProjectBox
                         title="Spotify Clone"
-                        description="TBD."
+                        description="Coming soon."
                         image={SpotifyImg}
                         link="https://wiadarola.github.io/spotify-clone/"
                     />

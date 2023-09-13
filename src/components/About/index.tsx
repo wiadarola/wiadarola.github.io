@@ -13,7 +13,9 @@ function About() {
                 <span>At <span className="highlight">New York University</span>, I honed my skills in <span className="highlight">Computer Science</span> and fell for the city's allure and the intricacies of software engineering.</span>
                 <span>Outside coding, I enjoy <span className="highlight">staying active</span>,&nbsp;
                     <span className="highlight">attending jazz and comedy nights</span>, and&nbsp;
-                    <span className="highlight">cherishing the many parks the city has to offer</span>.</span>
+                    {/* <span className="highlight">cherishing the many parks the city has to offer</span> */}
+                    <span className="highlight">playing Magic the Gathering with friends</span>
+                    .</span>
             </div>
         </section>
     );
