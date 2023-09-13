@@ -14,7 +14,7 @@ function Contact() {
                     <span className='contact-tag'>Want to see more?<LinkButton href="https://github.com/wiadarola/" text="Check out my GitHub" newTab={true} /></span>
                     <span className='contact-tag'>Have a question?<LinkButton href="mailto:wiadarola0@gmail.com" text="Shoot me an Email" newTab={true} /></span>
                 </div >
-                <span>Thanks for checking out my portfolio:)</span >
+                <span>Thanks for checking out my portfolio :)</span >
             </div >
         </section >
     );

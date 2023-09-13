@@ -10,14 +10,12 @@ footer {
 }
 
 footer span {
-    font-family: 'Open Sans', sans-serif;
     font-weight: 700;
     font-size: 14pt;
 }
 
 footer a {
     color: black;
-    font-family: 'Open Sans', sans-serif;
     font-weight: 700;
     font-size: 16pt;
     text-decoration: none;
