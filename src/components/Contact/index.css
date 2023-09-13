@@ -5,6 +5,8 @@
     display: grid;
     grid-template-rows: auto 1fr;
     margin-top: 20px;
+    overflow: hidden;
+    overflow-y: auto;
 }
 
 #contact>div>header {
