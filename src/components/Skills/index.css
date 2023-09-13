@@ -89,8 +89,8 @@
 .skill-card {
     position: relative;
     cursor: pointer;
-    width: clamp(80px, 10vw, 130px);
-    height: clamp(80px, 10vw, 130px);
+    width: clamp(87px, 10vw, 130px);
+    height: clamp(87px, 10vw, 130px);
     overflow: hidden;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.5);
 }
@@ -155,7 +155,7 @@
 .card-back {
     background: linear-gradient(135deg, #ffffff, #f0eeee);
     transform: rotateY(180deg);
-    font-size: clamp(0.7rem, 1.5vw, 1rem);
+    font-size: clamp(0.65rem, 1.5vw, 1rem);
     font-weight: 600;
     text-align: center;
     display: flex;
@@ -168,6 +168,7 @@
     position: relative;
     z-index: 1;
     color: black;
+    padding: 0 1px;
 }
 
 .card-front span {
