@@ -1,4 +1,5 @@
 import './index.css';
+import LinkButton from '../LinkButton';
 
 function Contact() {
     return (
@@ -8,10 +9,12 @@ function Contact() {
             </div>
             <div className='contact-container'>
                 <div>
-                    <span><span className='contact-tag'>Interested in working together?</span><br />Let's connect.</span>
-                    <span><span className='contact-tag'>Want to see more?</span><br />Check out my resume.</span>
-                    <span><span className='contact-tag'>Have a question?</span><br />Feel free to reach out.</span>
-                </div>
+                    <span className='contact-tag'>Interested in working together?<LinkButton href="https://www.linkedin.com/in/wiadarola/" text="Let's connect on LinkedIn" newTab={true} /></span>
+                    <span className='contact-tag'>Want to see my resume?<LinkButton href="/assets/resume.pdf" text="Check it out" newTab={true} /></span>
+                    <span className='contact-tag'>Want to see more?<LinkButton href="https://github.com/wiadarola/" text="Check out my GitHub" newTab={true} /></span>
+                    <span className='contact-tag'>Have a question?<LinkButton href="mailto:wiadarola0@gmail.com" text="Shoot me an Email" newTab={true} /></span>
+                </div >
+                <span>Thanks for checking out my portfolio:)</span >
             </div >
         </section >
     );

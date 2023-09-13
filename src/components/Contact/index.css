@@ -21,126 +21,52 @@
 
 .contact-container {
     height: 100%;
-    width: 70%;
+    width: 80%;
     margin: 0 auto;
+    display: flex;
+    flex-direction: column;
 }
 
 .contact-container>div {
+    flex: 0.8;
     display: grid;
-    grid-template-rows: auto auto auto;
-    height: min-content;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+    height: 80%;
     align-items: center;
-    gap: 15px;
+    justify-content: center;
+    text-align: center;
+    gap: 10px;
     margin-top: 5%;
 }
 
-.contact-container>div>div:first-of-type {
-    display: grid;
-    grid-template-columns: 1fr auto;
-}
-
 /* "INTERESTED IN..." TEXT */
-.contact-container span {
+.contact-container>div>span {
     font-size: clamp(14pt, 2vw, 100pt);
     font-weight: 600;
-}
-
-.contact-container>div>div>div {
     display: grid;
-    grid-template-columns: auto auto;
-    gap: 10px;
+    grid-template-rows: auto auto;
+    justify-content: center;
+    gap: 5px;
 }
 
-.contact-img-container {
-    display: grid;
-    grid-template-columns: auto auto;
-    margin-right: 12px;
-}
-
-.contact-img {
-    height: clamp(40px, 12vw, 60px);
+.contact-container>span {
+    font-size: clamp(14pt, 2vw, 100pt);
+    font-weight: 600;
+    text-align: center;
     display: flex;
+    justify-self: center;
+    align-self: center;
 }
 
-.contact-img:hover {
-    cursor: pointer;
-}
-
-/* FORM INPUT STYLES */
-.contact-form {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 20px;
-}
-
-.contact-form>div:first-child {
-    display: flex;
-    flex-direction: column;
-    gap: 10px;
-    flex: 1;
-    justify-content: space-between;
-}
-
-.form-input {
-    color: white;
-    padding: 15px;
-    background-color: #333;
-    border: 1px solid #555;
-    font-weight: 600;
-    font-size: 16pt;
-}
-
-textarea.form-txt {
-    height: 100%;
-    flex: 1;
-    resize: none;
-    background-color: #333;
-    border: 1px solid #555;
-    font-weight: 600;
-    font-size: 16pt;
-    color: white;
-    padding: 8px 0 0 8px;
-}
-
-/* BUTTON STYLES */
-button {
-    background: linear-gradient(135deg, #002244, #094563);
-    border: none;
-    padding: 10px 20px;
-    color: white;
-    font-weight: 600;
-    font-size: 12pt;
-    cursor: pointer;
+#contact .link-button {
     width: max-content;
-    justify-self: end;
+    font-size: clamp(14pt, 2vw, 100pt);
+    justify-self: center;
 }
 
-button:hover {
-    background: linear-gradient(135deg, #001122, #0e549b);
-}
-
-button:active {
-    background: linear-gradient(135deg, #002244, #094563);
-    transform: scale(0.98);
-}
-
-@media screen and (max-width: 768px) {
-    .contact-form {
-        grid-template-columns: 1fr;
+@media screen and (max-height : 570px) {
+    .contact-container>div {
+        grid-template-columns: 1fr 1fr;
         grid-template-rows: 1fr 1fr;
-        justify-content: center;
-    }
-
-    .contact-tag {
-        display: none;
-    }
-
-    .form-input {
-        width: 98%;
-        padding-right: 0;
-    }
-
-    .form-txt {
-        width: 100%;
     }
 }
