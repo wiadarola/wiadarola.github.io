@@ -100,7 +100,7 @@
 .project-box-content>div {
     display: flex;
     flex-direction: row;
-    gap: 2em;
+    gap: 1em;
 }
 
 .project-box-content a:hover {
