@@ -92,13 +92,19 @@
 
 .project-box-content a {
     color: white;
-    text-decoration: none;
     font-weight: 600;
     font-size: 12pt;
+    text-decoration: underline;
+}
+
+.project-box-content>div {
+    display: flex;
+    flex-direction: row;
+    gap: 2em;
 }
 
 .project-box-content a:hover {
-    text-decoration: underline;
+    color: #d1d1d1;
 }
 
 @media screen and (max-width: 768px) {
