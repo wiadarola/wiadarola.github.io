@@ -14,8 +14,7 @@ function About() {
                 <span>Outside coding, I enjoy <span className="highlight">staying active</span>,&nbsp;
                     attending <span className="highlight">jazz and comedy</span> shows, and&nbsp;
                     {/* <span className="highlight">cherishing the many parks the city has to offer</span> */}
-                    playing<span className="highlight"> Magic the Gathering</span> with friends
-                    .</span>
+                    playing<span className="highlight"> Magic the Gathering</span> with friends.</span>
             </div>
         </section>
     );
