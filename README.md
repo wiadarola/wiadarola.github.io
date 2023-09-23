@@ -4,7 +4,7 @@
 
 ## 🚀 About Me
 
-Hello there! I'm William Iadarola. I'm a passionate Software Engineer from San Juan Capistrano, California. I love working on challenging projects, collaborating with teams, and constantly learning new technologies. When I'm not coding, you can find me making an endless stream of Magic the Gathering decks.
+Hello there! I'm William Iadarola. I'm a passionate Software Engineer from Southern California. I love working on challenging projects, collaborating with teams, and constantly learning new technologies. When I'm not coding, you can find me making an endless stream of Magic the Gathering decks.
 
 ---
 
