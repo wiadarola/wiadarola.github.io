@@ -2,8 +2,9 @@ import "./index.css";
 import LinkButton from "../LinkButton";
 import ToDoImg from "/assets/projectimg-notes.jpg";
 import SpotifyImg from "/assets/projectimg-music.jpg";
-import CNNImg from "/assets/projectimg-bino.jpeg";
+// import CNNImg from "/assets/projectimg-bino.jpeg";
 import MTGImg from "/assets/stonks-without-stonks.jpg";
+import ai from "/assets/ai.jpg";
 
 function Projects() {
     return (
@@ -15,20 +16,22 @@ function Projects() {
             <div className="projects-content">
                 <div>
                     <ProjectBox
-                        title="Spotify Clone"
-                        description="Full-stack Spotify clone web app built using Next.js, TypeScript, React, Supabase, PostgreSQL, and Tailwind CSS."
-                        image={SpotifyImg}
-                        visit="https://spotify-clone-n15j.vercel.app/"
-                        repo="https://github.com/wiadarola/spotify-clone"
+                        title="SaaS AI Companion"
+                        description="Full-stack customizable AI companion app built with Next13, TypeScript, React, Prisma, MySQL, and Tailwind CSS."
+                        image={ai}
+                        visit="https://ai-companion-ku0c6fke7-wjiadarola-coxnet.vercel.app/"
+                        repo=" https://github.com/wiadarola/ai-companion"
                     />
                     <ProjectBox
-                        title="MTG Price Predictor"
-                        description="Utilizes regression techniques to estimate Magic the Gathering card prices (USD) on online marketplaces."
-                        image={MTGImg}
-                        repo=" https://github.com/wiadarola/mtg-price-predictor"
+                        title="Spotify Clone"
+                        description="Full-stack Spotify clone web app built using Next13, TypeScript, React, Supabase, PostgreSQL, and Tailwind CSS."
+                        image={SpotifyImg}
+                        visit="https://spotify-clone-htmm04u15-wjiadarola-coxnet.vercel.app/"
+                        repo="https://github.com/wiadarola/spotify-clone"
                     />
                 </div>
                 <div>
+
                     <ProjectBox
                         title="React ToDo App"
                         description="React TypeScript project completed to gain familiarity with the tools."
@@ -37,10 +40,10 @@ function Projects() {
                         repo="https://github.com/wiadarola/react-ts-todo"
                     />
                     <ProjectBox
-                        title="CNN Depth Estimator"
-                        description="A nerual network that performs monocular depth estimation. Created using Numpy, scikit-learn, & PyTorch."
-                        image={CNNImg}
-                        repo="https://github.com/wiadarola/CV-Monocular-Depth-Estimator"
+                        title="MTG Price Predictor"
+                        description="Utilizes regression techniques to estimate Magic the Gathering card prices (USD) on online marketplaces."
+                        image={MTGImg}
+                        repo=" https://github.com/wiadarola/mtg-price-predictor"
                     />
                 </div>
             </div>
