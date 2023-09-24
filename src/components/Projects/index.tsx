@@ -19,14 +19,14 @@ function Projects() {
                         title="SaaS AI Companion"
                         description="Full-stack customizable AI companion app built with Next13, TypeScript, React, Prisma, MySQL, and Tailwind CSS."
                         image={ai}
-                        visit="https://ai-companion-ku0c6fke7-wjiadarola-coxnet.vercel.app/"
+                        visit="https://ai-companion-sable.vercel.app/"
                         repo=" https://github.com/wiadarola/ai-companion"
                     />
                     <ProjectBox
                         title="Spotify Clone"
                         description="Full-stack Spotify clone web app built using Next13, TypeScript, React, Supabase, PostgreSQL, and Tailwind CSS."
                         image={SpotifyImg}
-                        visit="https://spotify-clone-htmm04u15-wjiadarola-coxnet.vercel.app/"
+                        visit="https://spotify-clone-phi-mocha.vercel.app/"
                         repo="https://github.com/wiadarola/spotify-clone"
                     />
                 </div>
